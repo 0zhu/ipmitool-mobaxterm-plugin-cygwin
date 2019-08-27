@@ -27,3 +27,9 @@ wget -qO ipmitool https://github.com/zhubanRuban/ipmitool-mobaxterm-plugin/raw/m
 >```
 >uname -m
 >```
+
+### Uninstallation
+
+```
+wget -qO ipmitool https://github.com/zhubanRuban/ipmitool-mobaxterm-plugin/raw/master/ipmitool-1.8.18.mxt3 && unzip -Z1 ipmitool | xargs -I{} rm -vf /{} && rm -f ipmitool
+```
